@@ -1,0 +1,68 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Oxygen', sans-serif;*/
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+.navBardemoBasicUsage md-content .ext-content {
+    padding: 50px;
+    margin: 20px;
+    background-color: #FFF2E0;
+}
+.md-tall {
+    font-family: 'Rubik', sans-serif;
+    color: black !important;
+    text-decoration: none;
+}
+.md-tall a {
+    text-decoration: none;
+    color: black;
+}
+.md-tall a:hover {
+    color: white;
+}
+.navlink{
+  font-size:1.3rem;
+}
+/*.menu {
+    margin-right: 4%;
+    margin-bottom: 2%;
+    justify-content: flex-end;
+}*/
+img {
+    height: 200px;
+}
+.projectsDetails a {
+    color: black;
+}
+.projectsDetails ng-md-icon {
+    margin-left: 10%;
+}
+.projectsDetails {
+    margin-bottom: 2%;
+}
+.link {
+    margin-left:2%;
+}
+.link a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover {
+    fill: gray;
+    color: gray;
+}
