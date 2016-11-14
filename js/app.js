@@ -6,14 +6,15 @@ app.config(function($routeProvider, $locationProvider, $mdThemingProvider) {
         .accentPalette('grey')
     $routeProvider
         .when('/', {
+            templateUrl: 'partials/home.html',
             controller: 'homepage'
         })
         .when('/Portfolio/', {
-            templateUrl:'partials/portfolio.html',
+            templateUrl: 'partials/portfolio.html',
             controller: 'homepage'
         })
         .when('/Contact/', {
-            templateUrl:'partials/contact.html',
+            templateUrl: 'partials/contact.html',
             controller: 'homepage'
         })
 

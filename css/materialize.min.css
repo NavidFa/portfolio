@@ -16,6 +16,19 @@ font-family: 'Oxygen', sans-serif;*/
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none !important;
 }
+.mainhome {
+    background: url(https://circuitboard.com/images/circuitboard2.jpg);
+    background-size: contain;
+    height: 200vh;
+    margin-top: -30%;
+}
+.home {
+    padding: 1%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 130%;
+}
+
+
 .navBardemoBasicUsage md-content .ext-content {
     padding: 50px;
     margin: 20px;
@@ -33,36 +46,42 @@ font-family: 'Oxygen', sans-serif;*/
 .md-tall a:hover {
     color: white;
 }
-.navlink{
-  font-size:1.3rem;
-}
-/*.menu {
-    margin-right: 4%;
+md-card {
+    padding: 4%;
     margin-bottom: 2%;
-    justify-content: flex-end;
-}*/
-img {
-    height: 200px;
 }
-.projectsDetails a {
+md-card a {
     color: black;
 }
-.projectsDetails ng-md-icon {
-    margin-left: 10%;
+md-card a:hover {
+    font-family: 'Ubuntu', sans-serif;
+    color:blue;
+    fill:red !important;
 }
-.projectsDetails {
-    margin-bottom: 2%;
+.navlink {
+    font-size: 1.3rem;
+}
+.projectsImg {
+    max-height: 400px;
 }
 .link {
-    margin-left:2%;
+    margin-left: 4%;
+    margin-top: 5%;
 }
 .link a {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
     text-decoration: none;
     color: black;
 }
 .link a:hover {
     fill: gray;
     color: gray;
+}
+.link i {
+    margin-left: 15px;
+}
+div {
+  /*border: solid;*/
 }
